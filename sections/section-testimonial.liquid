@@ -1,0 +1,76 @@
+<div class="testimonial-container page-width">
+<h2 class="testimonial-title">{{ section.settings.testimonials_title }}</h2>
+    <div class="testimonial-carousel">
+        
+        {% comment %} for each block in the section blocks... {% endcomment %}
+        {% for block in section.blocks %}
+            <div class="testimonial-card">
+                <div class="testimonial">
+                    <div class="quote">
+                    {% comment %} ...render the quotation icon... {% endcomment %}
+                        {% render 'icon-quotes' %}
+                    </div>
+                    {% comment %} ...display the textimonial text... {% endcomment %}
+                    <p>{{ block.settings.testimonial_text }}</p>
+                </div>
+                {% comment %} ...display the user image and the user name {% endcomment %}
+                <img class="userimg incard" src="{% if block.settings.customer_image %} {{ block.settings.customer_image | img_url: '300x' }} {% else %} https://randomuser.me/api/portraits/men/{{ forloop.index }}.jpg {% endif %}">
+                <div class="user incard"><p>{{ block.settings.customer_name }}</p></div>
+            </div>
+        {% endfor %}
+        
+    </div>
+</div>  
+{% schema %}
+    {
+        "name": "Customer Reviews",
+        "settings": [
+            {
+                "type": "text",
+                "id": "testimonials_title",
+                "label": "Testimonials Title",
+                "default": "Testimonials",
+                "info": "Name your Testimonials Section",
+                "placeholder": "Testimonials"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "testimonial_block",
+                "name": "Testimonial",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "customer_name",
+                        "label": "Customer's Name",
+                        "info": "This is where the Customer's Name goes.",
+                        "placeholder": "The Customer's Name"
+                    },
+                    {
+                        "type": "textarea",
+                        "id": "testimonial_text",
+                        "label": "Testimonial Text",
+                        "info": "This is where the Customer's Testimonial goes.",
+                        "placeholder": "The Customer's Testimonial..."
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "customer_image",
+                        "label": "Customer's Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "customer_image_alt_text",
+                        "label": "Alt-Text",
+                        "info": "Alt-Text for Customer Image"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Testimonials"
+            }
+        ]        
+    }
+{% endschema %}

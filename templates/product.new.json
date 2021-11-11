@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "10923ef1-388d-44f9-a56a-b2fe95e1e07e": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "tax not included"
+          }
+        },
+        "12d65a5e-8fd3-4091-80d3-38c0c86ef11a": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "ships in 7 days"
+          }
+        }
+      },
+      "block_order": [
+        "10923ef1-388d-44f9-a56a-b2fe95e1e07e",
+        "12d65a5e-8fd3-4091-80d3-38c0c86ef11a"
+      ],
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "blocks": {
+        "13f89794-0d01-4138-8d56-d003eb4ffb48": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "tax included"
+          }
+        },
+        "f7a74d07-5a62-42dd-93d0-3bf83bf14857": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "ships in 14 days"
+          }
+        }
+      },
+      "block_order": [
+        "13f89794-0d01-4138-8d56-d003eb4ffb48",
+        "f7a74d07-5a62-42dd-93d0-3bf83bf14857"
+      ],
+      "settings": {
+        "show_reviews": true
+      }
+    },
+    "163138880303c2c9d8": {
+      "type": "image-with-text",
+      "blocks": {
+        "163138880303c2c9d8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "163138880303c2c9d8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163138880303c2c9d8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163138880303c2c9d8-0",
+        "163138880303c2c9d8-1",
+        "163138880303c2c9d8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second",
+    "163138880303c2c9d8"
+  ]
+}

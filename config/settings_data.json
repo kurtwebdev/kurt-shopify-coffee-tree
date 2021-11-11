@@ -1,0 +1,87 @@
+{
+  "current": {
+    "colors_accent_1": "#754c29",
+    "social_twitter_link": "https:\/\/twitter.com",
+    "social_facebook_link": "https:\/\/facebook.com",
+    "social_instagram_link": "http:\/\/instagram.com",
+    "social_tiktok_link": "https:\/\/tiktok.com",
+    "social_snapchat_link": "https:\/\/www.snapchat.com",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee ☕ Time!",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/CoffeeTree-cropped_a5ab9649-5c8e-49e2-a65b-e4cd89552036.png",
+          "logo_width": 200,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "7f187aa5-7011-4794-97c0-b6725700ecf3": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "a32fafd6-6dc8-4246-9df2-d836a3668588": {
+            "type": "text",
+            "settings": {
+              "heading": "Joint Coffee",
+              "subtext": "<p>📍 201 SE 6th St. Fort Lauderdale, FL 33301<\/p><p><\/p><p>📞 954-123-4567<\/p><p><\/p><p>✉ hello@jointcoffee.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "7f187aa5-7011-4794-97c0-b6725700ecf3",
+          "footer-0",
+          "a32fafd6-6dc8-4246-9df2-d836a3668588"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "For Coffee Lovers 🤎",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      },
+      "main-test-product": {
+        "type": "main-test-product",
+        "settings": {
+          "show_reviews": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}

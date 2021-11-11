@@ -1,0 +1,249 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Try the world's aromas"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_image_main.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Favorites 😍",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "1629143350ef9dbe57": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Learn More About Our Coffee 💡",
+        "blog": "news",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
+      }
+    },
+    "image_text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coffee Club"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join",
+            "button_link": "shopify:\/\/pages\/coffee-club"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product_pack-w.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1629144336feab3310": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/Roasting-video.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/video\/582023095?badge=0&amp;autoplay=1&amp;loop=1&amp;player_id=0&amp;app_id=58479",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "1629144338be3b12c4": {
+      "type": "collage",
+      "blocks": {
+        "1629144338be3b12c4-1": {
+          "type": "product",
+          "settings": {
+            "product": "coffee-brazil",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "05b7fbab-7dd9-4c92-9d6b-9a528917155e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collage-section.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "ed92c2ee-fe33-4aed-9875-e395ab037b78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collage-section.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1629144338be3b12c4-1",
+        "05b7fbab-7dd9-4c92-9d6b-9a528917155e",
+        "ed92c2ee-fe33-4aed-9875-e395ab037b78"
+      ],
+      "settings": {
+        "heading": "Coffee of the Month ⭐",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1631661572b6fc5890": {
+      "type": "section-testimonial",
+      "blocks": {
+        "3ea10492-805d-4021-baea-f865a381f3da": {
+          "type": "testimonial_block",
+          "settings": {
+            "customer_name": "Sarah",
+            "testimonial_text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
+            "customer_image": "shopify:\/\/shop_images\/89.jpg",
+            "customer_image_alt_text": ""
+          }
+        },
+        "3f0021cb-0608-44e2-a4dd-b98f96954f1b": {
+          "type": "testimonial_block",
+          "settings": {
+            "customer_name": "Kelly",
+            "testimonial_text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
+            "customer_image": "shopify:\/\/shop_images\/33.jpg",
+            "customer_image_alt_text": ""
+          }
+        },
+        "84450ec8-abad-4284-9224-d98aca45f8b0": {
+          "type": "testimonial_block",
+          "settings": {
+            "customer_name": "Paul",
+            "testimonial_text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
+            "customer_image": "shopify:\/\/shop_images\/39.jpg",
+            "customer_image_alt_text": ""
+          }
+        },
+        "a8d385c7-54f2-4c9a-a1a8-30ee7adb4181": {
+          "type": "testimonial_block",
+          "settings": {
+            "customer_name": "Matt",
+            "testimonial_text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
+            "customer_image": "shopify:\/\/shop_images\/22.jpg",
+            "customer_image_alt_text": ""
+          }
+        },
+        "36e5dd4b-40b7-41a0-b81b-cfcb3ecead22": {
+          "type": "testimonial_block",
+          "settings": {
+            "customer_name": "Sheryl",
+            "testimonial_text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
+            "customer_image": "shopify:\/\/shop_images\/44.jpg",
+            "customer_image_alt_text": ""
+          }
+        },
+        "ad581ae0-fd0d-4e48-a391-3b5dac5c2485": {
+          "type": "testimonial_block",
+          "settings": {
+            "customer_name": "Steven",
+            "testimonial_text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
+            "customer_image": "shopify:\/\/shop_images\/54.jpg",
+            "customer_image_alt_text": ""
+          }
+        },
+        "fdd81a19-0c8b-47de-9dad-11605dc216f8": {
+          "type": "testimonial_block",
+          "settings": {
+            "customer_name": "Cassie",
+            "testimonial_text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
+            "customer_image": "shopify:\/\/shop_images\/92.jpg",
+            "customer_image_alt_text": ""
+          }
+        },
+        "8a176458-a37c-43c5-8824-aad82a45b438": {
+          "type": "testimonial_block",
+          "settings": {
+            "customer_name": "Michelle",
+            "testimonial_text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system",
+            "customer_image": "shopify:\/\/shop_images\/8.jpg",
+            "customer_image_alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "3ea10492-805d-4021-baea-f865a381f3da",
+        "3f0021cb-0608-44e2-a4dd-b98f96954f1b",
+        "84450ec8-abad-4284-9224-d98aca45f8b0",
+        "a8d385c7-54f2-4c9a-a1a8-30ee7adb4181",
+        "36e5dd4b-40b7-41a0-b81b-cfcb3ecead22",
+        "ad581ae0-fd0d-4e48-a391-3b5dac5c2485",
+        "fdd81a19-0c8b-47de-9dad-11605dc216f8",
+        "8a176458-a37c-43c5-8824-aad82a45b438"
+      ],
+      "settings": {
+        "testimonials_title": "What our Customers are saying! 🥰"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_products",
+    "1629143350ef9dbe57",
+    "image_text",
+    "1629144336feab3310",
+    "1629144338be3b12c4",
+    "1631661572b6fc5890"
+  ]
+}

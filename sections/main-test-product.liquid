@@ -1,0 +1,66 @@
+<div class="page-width">
+    <h2>yo yo yo from the section file</h2>
+    <h2>{{ product.title }}</h2>
+    <img src="{{ product.featured_image | img_url: '300x' }}">
+    {% if section.settings.show_reviews %}
+        <h4>⭐⭐⭐⭐⭐</h4>
+    {% endif %}
+
+    {% for block in section.blocks %}
+        {% case block.type %}
+            {% when 'tax_notice_block' %}
+                <h4>{{ block.settings.tax_notice_text }}</h4>
+            {% when 'shipping_notice_block' %}
+                <h4>{{ block.settings.shipping_notice_text }}</h4>
+            {% when 'product_price_block' %}
+                <h4>{{ product.price }}</h4>
+                            
+        {% endcase %}
+    {% endfor %}
+
+</div>
+
+{% schema %}
+    {
+        "name": "product_page_content",
+        "settings": [
+            {
+                "id": "show_reviews",
+                "label": "Show Reviews?",
+                "type": "checkbox"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "tax_notice_block",
+                "name": "Tax Notice",
+                "limit": 1,
+                "settings": [
+                    {
+                        "id": "tax_notice_text",
+                        "label": "Enter Tax Notice",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "shipping_notice_block",
+                "name": "Shipping Notice",
+                "limit": 1,
+                "settings": [
+                    {
+                        "id": "shipping_notice_text",
+                        "label": "Enter Shipping Notice",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "type": "product_price_block",
+                "name": "Product Price",
+                "limit": 1,
+                "settings": []
+            }
+        ]
+    }
+{% endschema %}

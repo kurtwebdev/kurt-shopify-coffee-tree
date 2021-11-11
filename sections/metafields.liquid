@@ -1,0 +1,145 @@
+TEST<br>
+{% for fields in product.metafields.my_fields %}
+    {% if forloop.last == true %}
+        {{ forloop.index }} <br>
+    {% endif %}
+{% endfor %}
+<br>
+JUST PLAIN
+<br>
+text:
+{{product.metafields.my_fields.test_text}}
+<br>
+reference:
+{{ product.metafields.my_fields.test_reference }}
+<br>
+url:
+{{ product.metafields.my_fields.test_url }}
+<br>
+boolean:
+{{ product.metafields.my_fields.test_true_or_false }}
+<br>
+rating:
+{{ product.metafields.my_fields.test_rating }}
+<br>
+number:
+{{ product.metafields.my_fields.test_numbher }}
+<br>
+measurement:
+{{ product.metafields.my_fields.test_measurement }}
+<br>
+json:
+{{ product.metafields.my_fields.test_json }}
+<br>
+file:
+{{ product.metafields.my_fields.test_file }}
+<br>
+date_time:
+{{ product.metafields.my_fields.test_date_and_time }}
+<br>
+date:
+{{ product.metafields.my_fields.test_date }}
+<br>
+color:
+{{ product.metafields.my_fields.test_color }}
+<br>
+shiping:
+{{ product.metafields.my_fields.shipping }}
+<br>
+<br>
+TAG FILTER
+<br>
+text:
+{{product.metafields.my_fields.test_text | metafield_tag }}
+<br>
+reference:
+{{ product.metafields.my_fields.test_reference | metafield_tag }}
+<br>
+url:
+{{ product.metafields.my_fields.test_url | metafield_tag }}
+<br>
+boolean:
+{{ product.metafields.my_fields.test_true_or_false | metafield_tag }}
+<br>
+rating:
+{{ product.metafields.my_fields.test_rating | metafield_tag }}
+<br>
+number:
+{{ product.metafields.my_fields.test_numbher | metafield_tag }}
+<br>
+measurement:
+{{ product.metafields.my_fields.test_measurement | metafield_tag }}
+<br>
+json:
+{{ product.metafields.my_fields.test_json | metafield_tag }}
+<br>
+file:
+{{ product.metafields.my_fields.test_file | metafield_tag }}
+<br>
+date_time:
+{{ product.metafields.my_fields.test_date_and_time | metafield_tag }}
+<br>
+date:
+{{ product.metafields.my_fields.test_date | metafield_tag }}
+<br>
+color:
+{{ product.metafields.my_fields.test_color | metafield_tag }}
+<br>
+shiping:
+{{ product.metafields.my_fields.shipping | metafield_tag }}
+<br>
+<br>
+TEXT FILTER
+<br>
+text:
+{{product.metafields.my_fields.test_text | metafield_text }}
+<br>
+reference:
+{{ product.metafields.my_fields.test_reference | metafield_text }}
+<br>
+url:
+{{ product.metafields.my_fields.test_url | metafield_text }}
+<br>
+boolean:
+{{ product.metafields.my_fields.test_true_or_false | metafield_text }}
+<br>
+rating:
+{{ product.metafields.my_fields.test_rating | metafield_text }}
+<br>
+number:
+{{ product.metafields.my_fields.test_numbher | metafield_text }}
+<br>
+measurement:
+{{ product.metafields.my_fields.test_measurement | metafield_text }}
+<br>
+json:
+{{ product.metafields.my_fields.test_json | metafield_text }}
+<br>
+file:
+{{ product.metafields.my_fields.test_file | metafield_text }}
+<br>
+date_time:
+{{ product.metafields.my_fields.test_date_and_time | metafield_text }}
+<br>
+date:
+{{ product.metafields.my_fields.test_date | metafield_text }}
+<br>
+color:
+{{ product.metafields.my_fields.test_color | metafield_text }}
+<br>
+shiping:
+{{ product.metafields.my_fields.shipping | metafield_text }}
+<br>
+{% schema %}
+    {
+        "name": "Metafields Section",
+        "settings": [
+            
+        ],
+        "presets": [
+            {
+                "name": "Metafields Section"
+            }
+        ]
+    }
+{% endschema %}
